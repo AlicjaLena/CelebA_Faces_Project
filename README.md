@@ -1,4 +1,4 @@
-# # CelebA Dataset Analysis with MobileNetV2
+# CelebA Dataset Analysis with MobileNetV2
 
 # Project Purpose:
 The project focuses on loading and processing the CelebA dataset, which contains over 200,000 celebrity images, each annotated with 40 attributes. The task is to classify a specific attribute (e.g., "Smiling") using a custom neural network model. The processing involves resizing images and normalizing pixel values. Data augmentation enhances the diversity of training data, improving the model's generalization on new test data. A pre-trained model like MobileNetV2 is employed as a feature extractor, and custom output layers are added to classify the chosen attribute.
@@ -13,8 +13,11 @@ The project uses a CSV file with image labels to classify images into two catego
 
 
 # Installation Instructions:
-1. 
-
+1. Clone the Repository
+2. Set Up Python Environment. Ensure you have Python 3.12 or higher installed. It is recommended to use a virtual environment:
+python -m venv venv
+source venv/bin/activate  # For Linux/Mac
+venv\Scripts\activate  
 
 
 ### About the Project
