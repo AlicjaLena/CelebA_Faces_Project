@@ -1,0 +1,5 @@
+Python 3.12.3
+TensorFlow: 2.18.0
+TensorFlow Datasets: 4.9.6+nightly
+Matplotlib: 3.9.0
+Pandas: 2.2.2
